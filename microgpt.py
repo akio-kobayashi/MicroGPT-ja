@@ -152,7 +152,7 @@ v = [0.0] * len(params) # second moment buffer
 num_steps = 500 # number of training steps
 for step in range(num_steps):
 
-    # Take single document, tokenize it, surround it with BOS special token (token id 0) on both sides
+    # Take single document, tokenize it, surround it with BOS special token on both sides
     doc = docs[step % len(docs)]
     tokens = [BOS] + [uchars.index(ch) for ch in doc] + [BOS]
     n = min(block_size, len(tokens) - 1)
