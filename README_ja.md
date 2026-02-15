@@ -20,7 +20,7 @@
 本教材は Andrej Karpathy 氏の公開実装に基づいています。  
 原著作者およびオリジナルプロジェクトに感謝します。
 
-- Original project: https://github.com/karpathy/microgpt
+- Original project: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
 - Author: @karpathy
 
 ## 日本語ノートブックの内容
