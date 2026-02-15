@@ -1,5 +1,9 @@
 # MicroGPT 日本語教材版
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akio-kobayashi/MicroGPT-ja/blob/master/MicroGPT_ja_colab.ipynb)
+
+- Colabで開く: https://colab.research.google.com/github/akio-kobayashi/MicroGPT-ja/blob/master/MicroGPT_ja_colab.ipynb
+
 このディレクトリは、Andrej Karpathy 氏の MicroGPT（最小構成の GPT 実装）を学習用に扱うための補助資料です。
 
 - オリジナル実装: `microgpt.py`
@@ -20,7 +24,7 @@
 本教材は Andrej Karpathy 氏の公開実装に基づいています。  
 原著作者およびオリジナルプロジェクトに感謝します。
 
-- Original project: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- Original source: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
 - Author: @karpathy
 
 ## 日本語ノートブックの内容
@@ -34,7 +38,7 @@
 
 ## 実行方法（Google Colab）
 
-1. `MicroGPT_ja_colab.ipynb` を Colab にアップロード
+1. `MicroGPT_ja_colab.ipynb` を Colab で開く
 2. 上から順にセルを実行
 3. 学習損失グラフと生成結果を確認
 
@@ -42,4 +46,3 @@
 
 - 教材向けに小さなモデル設定です。
 - 出力は毎回ランダム要素を含みます（乱数シードは固定）。
-- オリジナル README がある場合はそのまま保持し、この `README_ja.md` を補助資料として併置してください。
